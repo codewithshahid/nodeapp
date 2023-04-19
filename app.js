@@ -1,7 +1,7 @@
-import express from 'express';
-import dotenv from 'dotenv';
+const app  = require('express');
+const dotenv = require('dotenv');
 
-export const app = express();
+module.exports = app();
 
 dotenv.config({
     path: './data/config.env',

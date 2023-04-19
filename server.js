@@ -1,4 +1,4 @@
-import {app} from "./app.js";
+const app = require('./app.js');
 
 
 app.get("/", (req, res) => {
