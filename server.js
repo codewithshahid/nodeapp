@@ -2,7 +2,7 @@ import {app} from "./app.js";
 
 
 app.get("/", (req, res) => {
-    res.send("<h1>Home Page</h1>")
+    res.send("<h1>Home PageS</h1>")
 })
 app.get("/about", (req, res) => {
     res.send("<h1>About Page</h1>")
